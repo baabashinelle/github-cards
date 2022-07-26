@@ -1,0 +1,88 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121314;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+.card {
+  position: relative;
+  width: 449px;
+  background-color: #171b21;
+}
+.card__pullshark {
+  position: relative;
+  background-image: url("https://github.com/images/modules/profile/achievements/gradients/pull-shark-detail.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 16px;
+  border-radius: 6px 6px 0px 0px;
+}
+.card__pullshark__img {
+  width: 140px;
+  height: 140px;
+}
+.card__pullshark__img__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__pullshark__button {
+  position: absolute;
+  top: 8px;
+  right: 7px;
+  background-color: #6e7681;
+  border: 0;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+}
+
+.card__content {
+  padding: 16px;
+}
+.card__content__heading {
+  color: #c9d1d9;
+  margin-bottom: 9px;
+  margin-top: 4px;
+}
+.card__content__paragraph {
+  color: #c9d1d9;
+  margin-top: 0;
+}
+.card__content__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__content__history {
+  border-top: 1px solid #30363d;
+  color: #8b949e;
+  font-size: 12px;
+}
+.card__content__trophy {
+  display: flex;
+  gap: 0.8rem;
+}
+.card__content__repo {
+  display: flex;
+  padding-top: 8px;
+  gap: 0.8rem;
+}
+.card__content__repo span {
+  color: #58a6ff;
+}
