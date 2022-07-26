@@ -30,6 +30,16 @@ body {
   padding: 16px;
   border-radius: 6px 6px 0px 0px;
 }
+.card__yolo {
+  position: relative;
+  background-image: url("https://github.com/images/modules/profile/achievements/gradients/yolo-detail.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 16px;
+  border-radius: 6px 6px 0px 0px;
+}
 .card__pullshark__img {
   width: 140px;
   height: 140px;
