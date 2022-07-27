@@ -107,6 +107,12 @@ body {
   gap: 0.8rem;
 }
 
+.card__body__history__trophy span {
+  color: #3fb950;
+
+  font-weight: 600;
+}
+
 .card__body__history__repo {
   display: flex;
   gap: 0.8rem;
@@ -115,4 +121,12 @@ body {
 
 .card__body__history__repo span {
   color: #58a6ff;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .card__content{
+    width: unset;
+  }
 }
