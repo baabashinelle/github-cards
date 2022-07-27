@@ -19,9 +19,7 @@ body {
 
 .card__content {
   position: relative;
-
   width: 449px;
-
   background-color: #171b21;
 }
 
@@ -35,6 +33,7 @@ body {
 
 .card--content--header {
   position: relative;
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -116,6 +115,7 @@ body {
 .card__body__history__repo {
   display: flex;
   gap: 0.8rem;
+
   padding-top: 8px;
 }
 
