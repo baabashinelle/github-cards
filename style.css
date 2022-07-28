@@ -13,7 +13,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   padding-top: 60px;
 }
 
@@ -33,18 +32,15 @@ body {
 
 .card--content--header {
   position: relative;
-
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   width: 100%;
   padding: 16px;
-
   border-radius: 6px 6px 0px 0px;
 }
 
-.card__content__img__container {
+.card__content__img-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,13 +55,10 @@ body {
   position: absolute;
   top: 8px;
   right: 7px;
-
   width: 32px;
   height: 32px;
   padding: 4px;
-
   background-color: #6e7681;
-
   border: 0;
   border-radius: 8px;
 }
@@ -84,19 +77,16 @@ body {
 .card__body__heading {
   margin-bottom: 9px;
   margin-top: 4px;
-
   color: #c9d1d9;
 }
 
 .card__body__paragraph {
   margin-top: 0;
-
   color: #c9d1d9;
 }
 
 .card__body__history {
   border-top: 1px solid #30363d;
-
   color: #8b949e;
   font-size: 12px;
 }
@@ -108,14 +98,12 @@ body {
 
 .card__body__history__trophy span {
   color: #3fb950;
-
   font-weight: 600;
 }
 
 .card__body__history__repo {
   display: flex;
   gap: 0.8rem;
-
   padding-top: 8px;
 }
 
